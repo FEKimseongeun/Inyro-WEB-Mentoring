@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+.compareP{
+    width: 500px;
+    height: 100px;
+    margin :10px;
+    padding : 20px;
+    font-size: 30px;
+    border: 10px solid black;
+    border-top-width : 2px;
+    background-color: aqua;
+}
+
+.main_first{
+    width: 50px;
+    height: 50px;
+}
+
+.main_sec{
+    width: 20px;
+    height: 20px;
+}
+
+.compareP:hover{
+    background-color: grey;
+}
+
+div:active{
+    background-color: purple;
+}
+
+input:focus{
+    background-color:blue;
+}
+
+#yellow{
+    width:30px;
+    height: 30px;
+    background-color: yellow;
+}
+
+p, span{
+    width:100px;
+    height:100px;
+}
+
+p{
+    display: inline-block;
+    background-color: coral;
+}
+
+span{
+    display: inline-block;
+    background-color: teal;
+}
+

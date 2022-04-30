@@ -1,0 +1,55 @@
+html{
+    font-family:'Black Han Sans', sans-serif;
+    font-size:14px;
+    color: #353535;
+}
+
+nav ul{
+    padding:0;
+    margin: 0;
+    display: flex;
+}
+
+nav li{
+    display: block;
+}
+
+nav a{
+    display: block;
+    padding: 26px 16px; /*padding : 위아래 양옆 */
+}
+
+a{
+    color:#353535;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+}
+
+a:hover{
+    color: #9253EB;
+}
+
+header {
+    position: fixed;
+    width:100%;
+    background-color: #fff;
+}
+
+
+body{
+    margin:0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.border-b{
+    border-bottom: 1px solid #F6F6F6;
+}
+
+.container{
+    max-width:1170px;
+    height: 500vh;
+    background-color: #fff;
+}
