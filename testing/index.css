@@ -166,3 +166,75 @@ img {
 .project_description{
   font-size:1.1rem;
 }
+
+.exp_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.exp_item{
+  flex: basis 25%;
+  padding:15px;
+}
+
+.exp_title{
+  font-weight: 800;
+  font-size:1.4rem;
+  margin-bottom: 13px;
+}
+
+.exp_text{
+  font-size: 1.14rem;
+  line-height: 1.5;
+}
+
+.decor{
+  display: flex;
+  margin:16px 0;
+}
+
+.decor_circle{
+  background-color: #2EC5CE;
+  width:24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 24px;
+}
+
+.contact{
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.contact ul{
+  list-style-type: none;
+  padding:0;
+  margin:0;
+  font-size: 1.48rem;
+  font-weight: 900;
+}
+.contact li{
+  margin-bottom:10px;
+}
+
+.contact a{
+  color:#8c30f5;
+}
+
+footer {
+  background-color: lightgrey;
+}
+
+footer .container{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-top:24px;
+  padding-bottom: 24px;
+}
+
+.social_link{
+  margin-right:30px; 
+}
