@@ -4,6 +4,8 @@ const $commentList = document.querySelector("#commentsList");
 
 const comments=[];
 
+//안녕하세요
+
 const commentTemplate=(newComment)=>{
     return `
         <li class="commentItem">
